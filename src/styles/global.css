@@ -395,3 +395,8 @@ button.btn-secondary { font-family: var(--font-body); }
 .fallback-label { font-size: 0.85rem; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-2); }
 .case-link .fallback { border-radius: 0; border-bottom: 1px solid var(--line); }
 .case-hero-img .fallback { border-radius: var(--radius-lg); }
+
+/* About: early production photo */
+.about-figure { margin: 0; }
+.about-figure .img { border-radius: var(--radius-lg); }
+.about-figure figcaption { margin-top: 12px; font-size: 0.92rem; color: var(--ink-3); }

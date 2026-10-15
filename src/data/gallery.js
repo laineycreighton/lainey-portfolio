@@ -23,6 +23,57 @@ export const galleryIntro = {
 
 export const gallery = [
   {
+    src: '/images/rooms/gala-show-control.jpg',
+    alt: 'Show control position overlooking a ballroom gala with an LED wall, projected star graphics, and long dinner tables',
+    title: 'Gala show control',
+    detail: 'Lighting, audio, and video run from one position',
+  },
+  {
+    src: '/images/rooms/lantern-reception.jpg',
+    alt: 'Reception room lit in red and pink with hanging lanterns, round rugs, and glass top tables',
+    title: 'Lantern reception',
+    detail: 'Full room color wash and hanging lantern decor',
+    tall: true,
+  },
+  {
+    src: '/images/rooms/keynote.jpg',
+    alt: 'Fireside keynote room with theater seating, a small stage, warm drape uplighting, and speakers',
+    title: 'Fireside keynote',
+    detail: 'Warm uplighting, theater seating, and stage audio',
+  },
+  {
+    src: '/images/rooms/hybrid-meeting.jpg',
+    alt: 'Board meeting set in a U shape with table microphones, dual projection screens, and a remote video feed',
+    title: 'Hybrid board meeting',
+    detail: 'Table mics, dual screens, and a live video call',
+  },
+  {
+    src: '/images/rooms/drape-install.jpg',
+    alt: 'Crew on ladders installing pink drape and a floral chandelier along a carpeted corridor',
+    title: 'Drape install',
+    detail: 'Corridor transformed with drape, rugs, and color',
+    tall: true,
+  },
+  {
+    src: '/images/rooms/awards-dinner.jpg',
+    alt: 'Barn dinner set with long farm tables, a clear lectern, two screens, a band stage, and chandeliers',
+    title: 'Awards dinner',
+    detail: 'Lectern, side screens, and a band stage',
+  },
+  {
+    src: '/images/rooms/outdoor-lounge.jpg',
+    alt: 'Outdoor lounge on a lawn beside a barn with string lights, white lounge furniture, and a bar',
+    title: 'Outdoor lounge',
+    detail: 'String lighting and power for an evening reception',
+    tall: true,
+  },
+  {
+    src: '/images/rooms/meeting-room.jpg',
+    alt: 'Library style meeting room with a round table, worktables, a wall display, and overhead lighting',
+    title: 'Meeting room',
+    detail: 'Wall display and flexible table layout',
+  },
+  {
     src: '/images/rooms/general-session.jpg',
     alt: 'General session room with an LED backdrop, two side screens, a stage, and a camera riser',
     title: 'General session',

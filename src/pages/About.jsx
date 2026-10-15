@@ -32,6 +32,15 @@ export default function About() {
         </Reveal>
       </section>
 
+      {about.earlyPhoto?.src && (
+        <section className="container" aria-label="Early live production">
+          <Reveal as="figure" className="about-figure">
+            <Img src={about.earlyPhoto.src} alt={about.earlyPhoto.alt} ratio="3 / 2" />
+            <figcaption>{about.earlyPhoto.caption}</figcaption>
+          </Reveal>
+        </section>
+      )}
+
       <section className="section container" aria-labelledby="outside-title">
         <Reveal className="narrow-block">
           <p className="eyebrow">Outside of work</p>

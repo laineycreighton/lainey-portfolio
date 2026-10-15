@@ -344,12 +344,12 @@ export const caseStudies = [
       'Directed event technology across 10+ properties in WA, OR, and WY, with teams of 12 staff and 60+ technicians.',
     metric: { value: '60%', label: 'AV revenue lift at one property in four months' },
     tags: ['People leadership', 'Budgets', 'Revenue strategy'],
-    image: '',
-    imageAlt: 'Technician team setting up audio equipment',
+    image: '/images/work/regional-operations.jpg',
+    imageAlt: 'Gala dinner in a timber barn with round tables, floral centerpieces, uplighting, and a draped stage',
 
     detail: {
-      heroImage: '',
-      heroImageAlt: 'Technicians setting up audio and video equipment for an event',
+      heroImage: '/images/work/regional-operations.jpg',
+      heroImageAlt: 'Gala dinner in a timber barn with round tables, floral centerpieces, uplighting, and a draped stage',
       scope: [
         { label: 'Region', value: '10+ properties in WA, OR, and WY' },
         { label: 'Team', value: 'Up to 12 full time staff and 60+ technicians' },
