@@ -1,0 +1,35 @@
+/*
+  THEME: Control room
+  Change the accent color here and it updates across the whole site.
+  --on-accent is the text color on top of the accent (buttons, step numbers).
+  Ideas: signal amber #F2A93B (current), signal green #4CC38A, cyan #4FB8E8, coral #FF7A59
+  Keep the accent bright: it sits on a dark background.
+*/
+:root {
+  --accent: #f2a93b;
+  --accent-strong: #ffc067;
+  --accent-soft: #17243a;
+  --on-accent: #0e1726;
+
+  --bg: #0e1726;
+  --surface: #131f33;
+  --surface-2: #1a2842;
+  --ink: #f5f7fa;
+  --ink-2: #c3ccda;
+  --ink-3: #8794a8;
+  --line: #24324a;
+
+  --font-display: 'Space Grotesk', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-body: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  --radius: 8px;
+  --radius-lg: 14px;
+  --max: 1120px;
+  --gutter: 20px;
+
+  color-scheme: dark;
+}
+
+@media (min-width: 768px) {
+  :root { --gutter: 32px; }
+}
