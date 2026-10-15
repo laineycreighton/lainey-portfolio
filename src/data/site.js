@@ -3,7 +3,7 @@
 export const site = {
   name: 'Lainey Creighton',
   role: 'Technology Program Manager',
-  url: 'https://www.laineycreighton.com', // update after you buy the domain
+  url: 'https://laineyportfolio.com',
 
   headline:
     'Complex technology programs, delivered. I own the scope, the budget, the vendors, and the outcome.',

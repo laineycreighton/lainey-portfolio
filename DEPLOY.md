@@ -52,13 +52,13 @@ Replace `YOUR-USERNAME` with your GitHub username.
 4. Netlify reads the settings from `netlify.toml`. You should see build command `npm run build` and publish directory `dist`. Leave them as they are.
 5. Click **Deploy**. The first build takes a minute or two.
 6. When it finishes, you get an address like `random-name-123.netlify.app`. Open it and click through every page.
-7. Optional: in **Project configuration**, change the project name so the address reads `laineycreighton.netlify.app`.
+7. Optional: in **Project configuration**, change the project name so the address reads `laineyportfolio.netlify.app`.
 
 From now on, every `git push` to `main` redeploys the site automatically.
 
 ## 5. Buy a domain
 
-Check availability for something like `laineycreighton.com`. A .com usually runs about $10 to $20 a year.
+Check availability for something like `laineyportfolio.com`. A .com usually runs about $10 to $20 a year.
 
 Two good paths:
 
@@ -90,7 +90,7 @@ In **Domain management**, under **HTTPS**, Netlify issues a free certificate aut
 Open `src/data/site.js` and set `url` to your final address:
 
 ```js
-url: 'https://www.laineycreighton.com',
+url: 'https://laineyportfolio.com',
 ```
 
 Then:
