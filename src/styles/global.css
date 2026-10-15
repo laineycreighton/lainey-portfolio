@@ -379,3 +379,19 @@ button.btn-secondary { font-family: var(--font-body); }
 .cap-note { margin-top: 6px; font-size: 0.92rem; color: var(--accent); }
 .cap-list { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
 .cap-list li { font-size: 0.88rem; padding: 6px 12px; border: 1px solid var(--line); border-radius: 999px; color: var(--ink); background: var(--bg); }
+
+/* Designed stand-in for case studies without a photo yet */
+.fallback {
+  position: relative; overflow: hidden;
+  display: flex; flex-direction: column; justify-content: flex-end; gap: 8px;
+  padding: clamp(18px, 4%, 36px);
+  background:
+    linear-gradient(90deg, var(--accent) 0 4px, transparent 4px),
+    repeating-linear-gradient(0deg, transparent 0 31px, rgba(245, 247, 250, .04) 31px 32px),
+    repeating-linear-gradient(90deg, transparent 0 31px, rgba(245, 247, 250, .04) 31px 32px),
+    radial-gradient(120% 90% at 85% 15%, #1c2c48 0%, var(--surface) 60%, var(--bg) 100%);
+}
+.fallback-value { font-family: var(--font-display); font-weight: 700; color: var(--accent); font-size: clamp(3rem, 2rem + 4vw, 5.5rem); line-height: .9; letter-spacing: -0.02em; }
+.fallback-label { font-size: 0.85rem; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-2); }
+.case-link .fallback { border-radius: 0; border-bottom: 1px solid var(--line); }
+.case-hero-img .fallback { border-radius: var(--radius-lg); }

@@ -9,6 +9,7 @@ export default function CaseCard({ study, index }) {
           src={study.image}
           alt={study.imageAlt}
           ratio="3 / 2"
+          fallback={{ value: String(index + 1).padStart(2, '0') }}
           size="1200 × 800 px · 3:2"
         />
         <div className="case-body">

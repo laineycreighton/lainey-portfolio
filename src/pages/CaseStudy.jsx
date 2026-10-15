@@ -44,6 +44,7 @@ export default function CaseStudy() {
             ratio="16 / 9"
             label={d.heroImageAlt}
             size="1600 × 900 px · 16:9"
+            fallback={{ value: String(index + 1).padStart(2, '0') }}
           />
         </Reveal>
       </div>
