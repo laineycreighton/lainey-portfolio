@@ -20,7 +20,7 @@ export default function Home() {
     <>
       <section className="hero container" aria-labelledby="hero-title">
         <div className="hero-text">
-          <Reveal as="p" className="eyebrow">{site.name} · {site.role}</Reveal>
+          <Reveal as="p" className="eyebrow">{site.name}</Reveal>
           <Reveal delay={80}><Headline /></Reveal>
           <Reveal as="ul" className="subline" delay={160} aria-label="Highlights">
             {site.subline.map((s) => <li key={s}>{s}</li>)}

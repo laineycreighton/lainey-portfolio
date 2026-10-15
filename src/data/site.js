@@ -2,7 +2,8 @@
 
 export const site = {
   name: 'Lainey Creighton',
-  role: 'Technology Program Manager',
+  // Shown after your name in browser tabs and link previews.
+  role: 'Portfolio',
   url: 'https://laineyportfolio.com',
 
   headline:
