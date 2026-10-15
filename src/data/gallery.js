@@ -22,10 +22,43 @@ export const galleryIntro = {
 }
 
 export const gallery = [
-  { src: '', alt: 'General session room set with stage and LED wall', title: 'General session', detail: 'Stage, LED wall, and theater seating' },
-  { src: '', alt: 'Ballroom set for a banquet with uplighting', title: 'Banquet', detail: 'Rounds, uplighting, and a center stage' },
-  { src: '', alt: 'Breakout room with projection and conferencing', title: 'Breakout', detail: 'Projection and hybrid conferencing', tall: true },
-  { src: '', alt: 'Classroom set with table power at every seat', title: 'Classroom', detail: 'Table power at every seat' },
-  { src: '', alt: 'Reception space with lighting and audio', title: 'Reception', detail: 'Lighting, audio, and branding' },
-  { src: '', alt: 'Front of house audio and video control position', title: 'Control position', detail: 'Front of house audio and video' },
+  {
+    src: '/images/rooms/general-session.jpg',
+    alt: 'General session room with an LED backdrop, two side screens, a stage, and a camera riser',
+    title: 'General session',
+    detail: 'LED backdrop, side screens, and a camera riser',
+  },
+  {
+    src: '/images/rooms/reception.jpg',
+    alt: 'Reception lounge with purple uplighting, a bar, murals, and set tables',
+    title: 'Reception',
+    detail: 'Color uplighting and dinner tables in a lounge space',
+  },
+  {
+    src: '/images/rooms/multicamera-production.jpg',
+    alt: 'Production desk with a multiview monitor and a live video switcher in a demo kitchen',
+    title: 'Multicamera production',
+    detail: 'Six camera live switch for a culinary demo',
+  },
+  {
+    src: '/images/rooms/panel-session.jpg',
+    alt: 'Panel session with theater seating, a raised stage with six chairs, and three screens',
+    title: 'Panel session',
+    detail: 'Theater seating, raised stage, and three screens',
+    tall: true,
+  },
+  {
+    src: '/images/rooms/breakout.jpg',
+    alt: 'Breakout room with round tables, a projection screen, and a speaker',
+    title: 'Breakout',
+    detail: 'Rounds, projection, and audio for a small group',
+    tall: true,
+  },
+  {
+    src: '/images/rooms/front-of-house.jpg',
+    alt: 'Technician at the front of house position with an audio console, wireless racks, and playback laptop',
+    title: 'Front of house',
+    detail: 'Audio, wireless, and playback control',
+    tall: true,
+  },
 ]

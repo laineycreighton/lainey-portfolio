@@ -75,8 +75,8 @@ function headFor(page) {
     `<meta property="og:description" content="${esc(page.description)}" />`,
     `<meta property="og:url" content="${url}" />`,
     `<meta property="og:image" content="${image}" />`,
-    `<meta property="og:image:width" content="1200" />`,
-    `<meta property="og:image:height" content="630" />`,
+    // Size tags only for the default image; page photos have their own sizes.
+    ...(page.image ? [] : [`<meta property="og:image:width" content="1200" />`, `<meta property="og:image:height" content="630" />`]),
     `<meta name="twitter:card" content="summary_large_image" />`,
   ].join('\n    ')
 }

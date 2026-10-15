@@ -154,12 +154,12 @@ export const caseStudies = [
       'Every process, vendor partnership, and pricing tool behind a portfolio of 250+ corporate event projects a year.',
     metric: { value: '250+', label: 'projects a year' },
     tags: ['Operations design', 'Vendor management', 'Pricing'],
-    image: '',
-    imageAlt: 'Conference room set for a corporate meeting',
+    image: '/images/work/department-from-zero.jpg',
+    imageAlt: 'Event space set with rounds, a center projection screen, two side displays, and red uplighting',
 
     detail: {
-      heroImage: '',
-      heroImageAlt: 'Conference room set for a corporate meeting with projection and audio',
+      heroImage: '/images/work/department-from-zero.jpg',
+      heroImageAlt: 'Event space set with rounds, a center projection screen, two side displays, and red uplighting',
       scope: [
         { label: 'Portfolio', value: '250+ corporate event projects a year' },
         { label: 'Starting point', value: 'No processes, no vendor network, no pricing system' },
@@ -216,12 +216,12 @@ export const caseStudies = [
       'A business case to replace aging projection with an LED wall, built from repair history, downtime rentals, and total cost.',
     metric: null,
     tags: ['Capital planning', 'Business case', 'Executive reporting'],
-    image: '',
-    imageAlt: 'Projection screens in a large event space',
+    image: '/images/work/led-wall-capital-program.jpg',
+    imageAlt: 'Large event space with projection screens, a stage, and round tables',
 
     detail: {
-      heroImage: '',
-      heroImageAlt: 'Large event space with projection screens',
+      heroImage: '/images/work/led-wall-capital-program.jpg',
+      heroImageAlt: 'Large event space with projection screens, a stage, and round tables',
       scope: [
         { label: 'Investment', value: 'LED video wall, capital purchase' },
         { label: 'Replacing', value: 'Aging projection screens in the main event space' },
